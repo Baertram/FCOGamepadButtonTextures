@@ -5,7 +5,7 @@ fcogpbt.addonVars = {}
 local addonVars = fcogpbt.addonVars
 addonVars.name = "FCOGamepadButtonTextures"
 addonVars.author = "Baertram"
-addonVars.version = '1.0'
+addonVars.version = '2.0'
 local addonName = addonVars.name
 
 
@@ -19,7 +19,7 @@ local buttonTexturesPossibilities = {
     [1] = "xbone",
     [2] = "ps4",
     [3] = "ps5",
-	[4] = "xbsx",
+    [4] = "xbsx",
 }
 local xbone =   buttonTexturesPossibilities[1]
 local ps4 =     buttonTexturesPossibilities[2]
@@ -50,7 +50,7 @@ local gamepadTextureParts = {
     [ps4]   = {folder = "ps4",  file = "ps4",   language = clientLang, },
     [ps5]   = {folder = "ps5",  file = "ps5",   language = clientLang, },
     [xbone] = {folder = "xbox", file = "xbone", language = clientLang, },
-	[xbsx]	= {folder = "scarlett", file = "scarlett", language = clientLang, },
+    [xbsx]  = {folder = "scarlett", file = "scarlett", language = clientLang, },
 }
 
 --DO NOT CHANGE THE ORDER OF ENTRIES AS THEY WILL BE REPLACED FROM TOP TO BOTTOM
@@ -437,7 +437,7 @@ local gamepadTexturesPatterns = {
         [124] = "%s/%s/nav_%s_yb.dds",
         [125] = "%s/%s/rightarrow_down.dds",
     },
-	[xbsx] = {
+    [xbsx] = {
         [1] = "%s/%s/console_art_xb1.dds",
         [2] = "%s/%s/leftarrow_down.dds",
         [3] = "%s/%s/nav_%s_a.dds",
