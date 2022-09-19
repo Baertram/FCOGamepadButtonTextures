@@ -1,8 +1,8 @@
 
 ## Title: FCOGamepadButtonTextures
-## Description: AddOn to choose which gamepad button textures to use: XBox, PS4, PS5
+## Description: AddOn to choose which gamepad button textures to use: XBox One, XBox Series X, PS4, PS5
 ## Author: Baertram
-## APIVersion: 101032 101033
+## APIVersion: 101035
 ## Version: 1
 ## AddOnVersion: 000010
 ## SavedVariables: FCOGamepadButtonTextures_SV
